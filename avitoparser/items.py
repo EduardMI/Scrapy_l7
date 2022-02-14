@@ -19,7 +19,6 @@ def clean_price(value):
 
 def clean_article(value):
     value = value.replace('Арт.', '')
-    print(value)
     return value
 
 
